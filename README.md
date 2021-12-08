@@ -1,6 +1,6 @@
 # lineplot
 ####Line plot for each gene
-gg_list=c("") ##gene name  eg, gg_list=resFilter$symbol %>% as.character() %>% .[1:100]
+gg_list=c("") ##gene nam
 gg_list=gg_list[!is.na(gg_list)]
 pp=list()
 for (gene in gg_list) {
